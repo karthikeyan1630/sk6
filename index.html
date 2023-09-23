@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+	<head>
+		<style>
+			#br1{
+			height: 350px;
+			width: 1330px;
+			}
+			#pra{
+			height : 430px;
+			width: 400px;
+			background-color: #2596be;
+			}
+			.bn{
+			height:50px;
+			width: 50px;
+			background-color: #2596be;
+			}
+			.image1{
+			background-color:#e5eef1;
+			}
+		</style>
+	</head>
+	<body>
+		<center><h2>Is, this you</h2>
+		<br><br>	
+		<div class="image1">
+		<img  id="pra" src="Pranikaa.jpeg" alt="Image" class="image"  ><br	><br></div>
+		<button id="btn" class="bn" onclick="summa()" >Yes</button>
+		</center><div class="summa" style="display: none;" id="myFieldset">
+		<img id="br1" src="br.webp" alt="Image" class="image"  >
+		<center><h2>Happy Birthday Pakhiiii<h2></center>
+		<video width="1330px" height="500px" controls="controls">
+        <source src="Pranikaa.mp4" type="video/mp4" />
+       </video><br><br>
+	   </div>
+		<center><h1></h1></center>
+	</body>
+	<script>
+		var a=document.getElementById('myFieldset');
+		var b=document.getElementById('pra');
+		function summa(){
+		if (myFieldset.style.display === "none") {
+                myFieldset.style.display = "block";
+            } else {
+                myFieldset.style.display = "none";
+            }
+		}
+		
+	</script>
+</html>
